@@ -13,6 +13,8 @@ import { FormEmpresaComponent } from './form-empresa/form-empresa.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule } from '@angular/material/input';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatButtonModule} from '@angular/material/button';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
     CdkAccordionModule,
     MatFormFieldModule,
     MatInputModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonModule,
+    FormsModule,
+    ReactiveFormsModule
   
   ],
   providers: [],
