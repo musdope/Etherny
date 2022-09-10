@@ -1,0 +1,11 @@
+a {
+ color: rgb(18, 19, 16);
+}  
+
+a:visited {
+    color: rgb(53, 238, 238);
+  }
+  
+  ul {
+    list-style-type: none;
+}
